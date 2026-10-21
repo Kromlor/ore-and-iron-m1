@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ore &amp; Iron</title>
     <link rel="icon" href="data:," />
-    <script type="module" crossorigin src="./assets/index-LY6oSI3R.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-DcRgYt4u.css">
+    <script type="module" crossorigin src="./assets/index-B1Zur--h.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/three.core-Dp-eO7LC.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-Ce4MqJWD.css">
   </head>
   <body>
     <div id="app"></div>
     <div id="hud"></div>
+    <!-- B50: covers the staged boot (src/core/boot.js); faded out by main.js once the game has drawn -->
+    <div id="boot-cover" style="position: fixed; inset: 0; z-index: 1000; background: #0d0b12; color: #b9ab93; display: flex; align-items: center; justify-content: center; font: 15px/1 system-ui, sans-serif; letter-spacing: 0.08em; transition: opacity 0.4s linear;">Loading…</div>
   </body>
 </html>
