@@ -2,21 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="0; url=https://kromlor.github.io/manawell-play/" />
     <title>Manawell: The Arcane Engine</title>
-    <meta name="description" content="Manawell: The Arcane Engine — open-world 3D arcane factory-building game" />
-    <meta name="application-name" content="Manawell" />
-    <link rel="icon" href="data:," />
-    <script type="module" crossorigin src="./assets/index-D04C4TGh.js"></script>
-    <link rel="modulepreload" crossorigin href="./assets/preload-helper-B6S779RZ.js">
-    <link rel="modulepreload" crossorigin href="./assets/titleBoot-BhIB1Jn2.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-BQFnDg_X.css">
+    <script>
+      (function () {
+        location.replace("https://kromlor.github.io/manawell-play/" + location.search + location.hash);
+      })();
+    </script>
   </head>
   <body>
-    <div id="app"></div>
-    <div id="hud"></div>
-    <!-- B50: covers the staged boot (src/core/boot.js); faded out by main.js once the game has drawn -->
-    <div id="boot-cover" style="position: fixed; inset: 0; z-index: 1000; background: #0d0b12; color: #b9ab93; display: flex; align-items: center; justify-content: center; font: 15px/1 system-ui, sans-serif; letter-spacing: 0.08em; transition: opacity 0.4s linear;">Loading…</div>
-    <!-- C112: the title page entry; it imports src/main.js on Continue / Play / Load / New Game -->
+    <p>This build has moved to <a href="https://kromlor.github.io/manawell-play/">https://kromlor.github.io/manawell-play/</a>.</p>
   </body>
 </html>
